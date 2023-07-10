@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(94, 92, 92);
+    padding: 10px;
+    align-items: center;
+}
+.menues{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-style: italic;
+    font-size: 17px;
+    cursor: pointer;
+}
+.item:hover{
+    color: white;
+}
